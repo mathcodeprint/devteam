@@ -1,0 +1,1 @@
+{"sender": "ProjectOrchestrator", "recipient": "Dev2", "message": {"task": {"id": 2, "description": "Implement World function", "type": "code", "function_name": "world", "return_value": "World"}}}

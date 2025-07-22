@@ -1,0 +1,34 @@
+{
+  "agents": [
+    {
+      "type": "manager",
+      "name": "ProjectOrchestrator",
+      "role": "Project Coordinator",
+      "skills": ["task_assignment", "progress_monitoring", "integration_supervision"],
+      "description": "Coordinates developer and testing agents to build a Hello World application using a local AI model for code generation and testing."
+    },
+    {
+      "type": "developer",
+      "name": "Dev1",
+      "role": "Hello Developer",
+      "skills": ["python", "function_development"],
+      "specialization": "Hello component",
+      "description": "Uses a local AI model to develop the 'Hello' function for the Hello World app."
+    },
+    {
+      "type": "developer",
+      "name": "Dev2",
+      "role": "World Developer",
+      "skills": ["python", "function_development"],
+      "specialization": "World component",
+      "description": "Uses a local AI model to develop the 'World' function for the Hello World app."
+    },
+    {
+      "type": "tester",
+      "name": "Tester1",
+      "role": "QA Engineer",
+      "skills": ["testing", "execution"],
+      "description": "Tests the Hello World app by generating and running a test script with a local AI model to verify the combined output."
+    }
+  ]
+}
